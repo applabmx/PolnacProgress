@@ -2,7 +2,7 @@
     <v-container>
         <img @mouseenter="hover = true" @mouseleave="hover = false" :class="{'heart' : hover}" class="pointer" alt="Vector Logo" src="/Vector.png"  @click="dialog = true" >
         <v-dialog v-model="dialog" width="500" >
-            <video ref="video" src="../static/Video.mp4" controls></video>
+            <video ref="video" src="Video.mp4" controls></video>
         </v-dialog>
     </v-container>
 </template>

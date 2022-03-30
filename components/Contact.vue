@@ -2,12 +2,12 @@
     <v-container class="mt-15 pt-10">
         <v-row class="info-txt apps-container" algin="center" justify="center" >
             <v-col cols="12" class="white--text">Encuentra más información en nuestras redes sociales:</v-col>
-            <v-col cols="2" sm="2" md="1" class="pointer"><img src="../static/linked.svg" alt="LinkedIn icono" @click="GoTo('https://www.linkedin.com/company/polnac')"> </v-col>
-            <v-col cols="2" sm="2" md="1" class="pointer"><img src="../static/Facebook.svg" alt="Facebook icono" @click="GoTo('https://www.facebook.com/PolimerosNacionales')"></v-col>
-            <v-col cols="2" sm="2" md="1" class="pointer"><img src="../static/Instagram.svg" alt="Instagram icono" @click="GoTo('https://www.instagram.com/polimeros_nacionales/')"></v-col>
-            <v-col cols="2" sm="2" md="1" class="pointer"><img src="../static/Twitter.svg" alt="Twitter icono" @click="GoTo('https://twitter.com/PolnacOficial')"></v-col>
-            <v-col cols="2" sm="2" md="1" class="pointer"><img src="../static/Youtube.svg" alt="Youtube icono"></v-col>
-            <v-col cols="2" sm="2" md="1" class="pointer"><img src="../static/Whatsapp.svg" alt="Whatsapp icono" @click="OpenWhatsappMessenger()"></v-col>
+            <v-col cols="2" sm="2" md="1" class="pointer"><img src="linked.svg" alt="LinkedIn icono" @click="GoTo('https://www.linkedin.com/company/polnac')"> </v-col>
+            <v-col cols="2" sm="2" md="1" class="pointer"><img src="Facebook.svg" alt="Facebook icono" @click="GoTo('https://www.facebook.com/PolimerosNacionales')"></v-col>
+            <v-col cols="2" sm="2" md="1" class="pointer"><img src="Instagram.svg" alt="Instagram icono" @click="GoTo('https://www.instagram.com/polimeros_nacionales/')"></v-col>
+            <v-col cols="2" sm="2" md="1" class="pointer"><img src="Twitter.svg" alt="Twitter icono" @click="GoTo('https://twitter.com/PolnacOficial')"></v-col>
+            <v-col cols="2" sm="2" md="1" class="pointer"><img src="Youtube.svg" alt="Youtube icono"></v-col>
+            <v-col cols="2" sm="2" md="1" class="pointer"><img src="Whatsapp.svg" alt="Whatsapp icono" @click="OpenWhatsappMessenger()"></v-col>
         </v-row>
         <v-row class="info-txt mt-15">
             <v-col  cols="12" > Polímeros Nacionales S.A. de C.V. Lázaro Cárdenas No. 49, <br> Col. San Jerónimo Tepetlacalco, Tlalnepantla, Estado de México. C.P. 54090.</v-col>
